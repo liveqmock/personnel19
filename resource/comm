@@ -1,0 +1,8 @@
+private IOperaterService operaterService = new OperaterService();
+private IOperateLogService operateLogService = new OperateLogService();
+
+
+/*日志*/
+String info="执行了登出操作";
+operateLogService.add(operaterService.getById(((Operater)req.getSession().getAttribute("operater")).getOpId()), info);
+/*日志*/

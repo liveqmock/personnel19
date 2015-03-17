@@ -1,0 +1,122 @@
+@CHARSET "UTF-8";
+
+#peocQueryContainer {
+	border: 10px;
+	border: red;
+}
+
+#peocQueryContainer #peocQueryTitle{
+	 background-color: #343F44;
+	 width: 1145px;
+	 height: 25px;
+
+}
+
+#peocQueryContainer #peocQueryTitle #titleText{
+	 color: #FFFFFF;
+	 font-size: 14px;
+	 background-color: #343F44;
+	 width: 500px;
+	 height: 20px;
+	 padding-top: 5px;
+	 padding-left: 20px;
+	 position: relative;
+	 float: left;
+
+}
+
+#peocQueryContainer #peocQueryTitle .titleButton {
+	 color: #FFFFFF;
+	 font-size: 14px;
+	 background-color: #343F44;
+	 width: 70px;
+	 height: 20px;
+	 padding-top: 5px;
+	 padding-left: 20px;
+	 margin-left: 520px;
+	 position: relative;
+	 float: left;
+}
+
+#peocQueryContainer #peocQueryTitle .titleButtonImage {
+	 background-color: #343F44;
+	 width: 12px;
+	 height: 12px;
+	 position: relative;
+	 float: left;
+}
+
+#peocQueryContainer #peocQueryTitle .titleButtonText {
+	 color: #FFFFFF;
+	 font-size: 14px;
+	 background-color: #343F44;
+	 margin-left:5px;
+	 width: 35px;
+	 height: 20px;
+	 position: relative;
+	 float: left;
+}
+
+
+#peocQueryContainer #QueryPage {
+	width: 1143px;
+	height: 200px;
+	border: solid;
+	border-width: 1px;
+	border-color: #A0C8CA;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#peocQueryContainer #QueryPage #selectionTitle {
+	color: red;
+}
+
+#peocQueryContainer #QueryPage #selectionMain {
+	color: red;
+}
+
+#peocQueryContainer #peocQueryShow {
+	width: 1145px;
+	height: 248px;
+	overflow: scroll;
+	
+}
+
+#peocQueryContainer #peocQueryShow table {
+	width: 1145px;
+	height: 25px;
+	text-align:center;
+	background-color: #A0C8CA;
+	
+}
+
+#peocQueryContainer #peocQueryShow table .tr1 td{
+    height:24px;
+    background-color: #D0EBEE;
+    
+}
+
+#peocQueryContainer #peocQueryShow table .tr1 .td1{
+	width: 100px;
+    
+}
+
+#peocQueryContainer #peocQueryShow table .tr2 td {
+	font-size:14px;
+	color: #2B4D4B;
+	background-color: #FFFFFF;
+	
+}
+
+#peocQueryContainer a {
+	text-decoration: none;
+	
+}
+#peocQueryContainer a:hover{
+	text-decoration: underline;
+	
+}
+
+
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/comm"/>
+	<classpathentry kind="src" path="src/system"/>
+	<classpathentry kind="src" path="src/information"/>
+	<classpathentry kind="src" path="src/salary"/>
+	<classpathentry kind="src" path="src/management"/>
+	<classpathentry kind="src" path="src/person"/>
+	<classpathentry kind="src" path="resource"/>
+	<classpathentry kind="src" path="WebContent/WEB-INF/lib"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/mysql"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="E:/apache-tomcat-7.0.39/lib/annotations-api.jar"/>
+	<classpathentry kind="lib" path="E:/apache-tomcat-7.0.39/lib/catalina.jar"/>
+	<classpathentry kind="lib" path="E:/apache-tomcat-7.0.39/lib/catalina-ant.jar"/>
+	<classpathentry kind="lib" path="E:/apache-tomcat-7.0.39/lib/catalina-ha.jar"/>
+	<classpathentry kind="lib" path="E:/apache-tomcat-7.0.39/lib/catalina-tribes.jar"/>
+	<classpathentry kind="lib" path="E:/apache-tomcat-7.0.39/lib/ecj-4.2.1.jar"/>
+	<classpathentry kind="lib" path="E:/apache-tomcat-7.0.39/lib/el-api.jar"/>
+	<classpathentry kind="lib" path="E:/apache-tomcat-7.0.39/lib/jasper.jar"/>
+	<classpathentry kind="lib" path="E:/apache-tomcat-7.0.39/lib/jasper-el.jar"/>
+	<classpathentry kind="lib" path="E:/apache-tomcat-7.0.39/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="E:/apache-tomcat-7.0.39/lib/jstl.jar"/>
+	<classpathentry kind="lib" path="E:/apache-tomcat-7.0.39/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="E:/apache-tomcat-7.0.39/lib/standard.jar"/>
+	<classpathentry kind="lib" path="E:/apache-tomcat-7.0.39/lib/tomcat-api.jar"/>
+	<classpathentry kind="lib" path="E:/apache-tomcat-7.0.39/lib/tomcat-coyote.jar"/>
+	<classpathentry kind="lib" path="E:/apache-tomcat-7.0.39/lib/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="E:/apache-tomcat-7.0.39/lib/tomcat-i18n-es.jar"/>
+	<classpathentry kind="lib" path="E:/apache-tomcat-7.0.39/lib/tomcat-i18n-fr.jar"/>
+	<classpathentry kind="lib" path="E:/apache-tomcat-7.0.39/lib/tomcat-i18n-ja.jar"/>
+	<classpathentry kind="lib" path="E:/apache-tomcat-7.0.39/lib/tomcat-jdbc.jar"/>
+	<classpathentry kind="lib" path="E:/apache-tomcat-7.0.39/lib/tomcat-util.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

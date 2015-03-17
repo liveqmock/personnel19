@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+.personinfoDiv{
+	padding-left: 30px;
+    width:100%  
+}
+.perDivSet{
+	float: left;
+	width:25%;
+	text-align: center;
+}

@@ -1,0 +1,122 @@
+@CHARSET "UTF-8";
+
+#personInfoQueryContainer {
+	border: 10px;
+	border: red;
+}
+
+#personInfoQueryContainer #personInfoQueryTitle{
+	 background-color: #343F44;
+	 width: 1145px;
+	 height: 25px;
+
+}
+
+#personInfoQueryContainer #personInfoQueryTitle #titleText{
+	 color: #FFFFFF;
+	 font-size: 14px;
+	 background-color: #343F44;
+	 width: 500px;
+	 height: 20px;
+	 padding-top: 5px;
+	 padding-left: 20px;
+	 position: relative;
+	 float: left;
+
+}
+
+#personInfoQueryContainer #personInfoQueryTitle .titleButton {
+	 color: #FFFFFF;
+	 font-size: 14px;
+	 background-color: #343F44;
+	 width: 70px;
+	 height: 20px;
+	 padding-top: 5px;
+	 padding-left: 20px;
+	 margin-left: 520px;
+	 position: relative;
+	 float: left;
+}
+
+#personInfoQueryContainer #personInfoQueryTitle .titleButtonImage {
+	 background-color: #343F44;
+	 width: 12px;
+	 height: 12px;
+	 position: relative;
+	 float: left;
+}
+
+#personInfoQueryContainer #personInfoQueryTitle .titleButtonText {
+	 color: #FFFFFF;
+	 font-size: 14px;
+	 background-color: #343F44;
+	 margin-left:5px;
+	 width: 35px;
+	 height: 20px;
+	 position: relative;
+	 float: left;
+}
+
+#personInfoQueryContainer #QueryPage {
+	width: 1143px;
+	height: 200px;
+	border: solid;
+	border-width: 1px;
+	border-color: #A0C8CA;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#personInfoQueryContainer #QueryPage #selectionTitle {
+	color: red;
+}
+
+#personInfoQueryContainer #QueryPage #selectionMain {
+	color: red;
+}
+
+#personInfoQueryContainer #personInfoQueryShow {
+	width: 1145px;
+	height: 248px;
+	overflow: scroll;
+	
+}
+
+#personInfoQueryContainer #personInfoQueryShow table {
+	width: 3000px;
+	height: 25px;
+	text-align:center;
+	background-color: #A0C8CA;
+	
+}
+
+#personInfoQueryContainer #personInfoQueryShow table .tr1 td{
+    height:24px;
+    background-color: #D0EBEE;
+    
+}
+
+#personInfoQueryContainer #personInfoQueryShow table .tr1 .td1{
+	width: 100px;
+    
+}
+
+#personInfoQueryContainer #personInfoQueryShow table .tr2 td {
+	font-size:14px;
+	color: #2B4D4B;
+	background-color: #FFFFFF;
+	
+}
+
+#personInfoQueryContainer a {
+	text-decoration: none;
+	
+}
+#personInfoQueryContainer a:hover{
+	text-decoration: underline;
+	
+}
+
+
+
+

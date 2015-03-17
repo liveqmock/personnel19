@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+body
+{	
+	background-color: white;
+	margin: 0px;
+	padding:0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.centtable_style {
+	width: 100%;
+
+	background-color: rgb(168, 199, 206);
+	margin-left: 15px;
+	margin-right: 30px;
+}
+.centtr {
+	background-color: #FFFFFF;
+	text-align: center;
+	
+}
+.leftTd
+{
+	background-color: #FFFFFF;
+	text-align: center;
+	font-size: 12px;
+	color: #344b50;
+	
+}
+.rightTd
+{
+	background-color: #FFFFFF;
+	text-align: center;
+	font-size: 12px;
+	color: #344b50;
+	
+}
+.blankTd
+{
+	background-color: #FFFFFF;
+}
+#downHref
+{
+	background-color: red;
+	width: 500px;
+	text-align: center;
+	float:right;
+}

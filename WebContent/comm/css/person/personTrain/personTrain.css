@@ -1,0 +1,121 @@
+@CHARSET "UTF-8";
+
+#pTrainTitle{
+	 background-color: #343F44;
+	 width: 1180px;
+	 height: 25px;
+}
+
+#pTrainTitle #titleText{
+	 color: #FFFFFF;
+	 font-size: 14px;
+	 background-color: #343F44;
+	 width: 500px;
+	 height: 20px;
+	 padding-top: 5px;
+	 padding-left: 20px;
+	 position: relative;
+	 float: left;
+
+}
+
+#pTrainTitle .titleButton {
+	 color: #FFFFFF;
+	 font-size: 14px;
+	 background-color: #343F44;
+	 width: 300px;
+	 height: 20px;
+	 padding-top: 5px;
+	 padding-left: 20px;
+	 margin-left: 300px;
+	 position: relative;
+	 float: left;
+}
+
+#pTrainTitle .titleButtonImage {
+	 background-color: #343F44;
+	 width: 12px;
+	 height: 12px;
+	 position: relative;
+	 float: left;
+}
+
+#pTrainTitle .titleButtonText {
+	 color: #FFFFFF;
+	 font-size: 14px;
+	 background-color: #343F44;
+	 margin-left:5px;
+	 width: 35px;
+	 height: 20px;
+	 position: relative;
+	 float: left;
+}
+
+#pTrainTitle .titleButtonText1 {
+	 color: #FFFFFF;
+	 font-size: 14px;
+	 background-color: #343F44;
+	 margin-left:20px;
+	 width: 70px;
+	 height: 20px;
+	 position: relative;
+	 float: left;
+}
+#pTrainTitle .titleButtonText2 {
+	 color: #FFFFFF;
+	 font-size: 14px;
+	 background-color: #343F44;
+	 margin-left:20px;
+	 width: 70px;
+	 height: 20px;
+	 position: relative;
+	 float: left;
+}
+
+#query .tableQuery {
+	height: 25px;
+	text-align: center;
+	background-color: #A0C8CA;
+	margin-top: 20px;
+}
+
+#query .tableQuery .tr1 th {
+	height: 24px;
+	background-color: #D0EBEE;
+}
+#query .tableQuery .tr2 td {
+	font-size:14px;
+	color: #2B4D4B;
+	background-color: #FFFFFF;
+}
+
+.STYLE22 {
+	font-size: 12px;
+	color: #295568;
+}
+
+#Layer2{
+	padding-top:5px;
+	position: relative;
+	z-index: 3;
+	display: none;
+}
+#Layer2 table{
+	border:solid;
+	border-width:2px;
+	border-color:#A0C8CA;
+	position: relative;
+}
+#personnelTrainRemark{
+	padding-left: 32px;
+}
+#button{
+	padding-left: 80px;
+	padding-top: 10px;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}

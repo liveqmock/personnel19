@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+.topTrwidthAndLengthSet
+{
+	
+	height:20px;
+	 bgcolor:#d3eaef; 
+  color: #295568;
+	 font-size: 12px; 
+	 text-align: center;
+}
+.centertrWidthAndLength{
+	height:20px;
+	 bgcolor:#FFFFFF; 
+	align:center;
+		color: #344b50;
+	font-size: 12px;
+	 text-align: center;
+}
+.STYLE19 {
+	color: #344b50;
+	font-size: 12px;
+}
+.STYLE21 {
+	font-size: 12px;
+	color: #3b6375;
+}
+.STYLE22 {
+	font-size: 12px;
+	color: #295568;
+}
+.fontSet{
+    font-size: 14px;
+    color: #000000;
+
+.HrefSet {
+	font-size: 12px;
+	color: #295568;
+	align:center;
+}

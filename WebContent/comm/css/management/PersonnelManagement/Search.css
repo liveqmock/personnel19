@@ -1,0 +1,46 @@
+@CHARSET "UTF-8";
+body{
+	background-color: white;
+	margin: 0px;
+	padding:0px;
+}
+#PersonnelSearch
+{
+	position:absolute;
+	float: left;
+	width:900px;
+	height:150px;
+
+	border:solid 1px #d4d0c8;
+}
+
+/* #PersonnelSearch #hiddenParams 隐藏域
+{
+	position:relative;
+	float: left;
+	width:900px;
+	height:20px;
+	
+} */
+#PersonnelSearch #PersonnelMain /*搜索主域*/
+{
+	position:relative;
+	margin-left: 20px;
+	width:850px;
+	height:200px;
+
+}
+#PersonnelSearch #PersonnelMain .inputLength
+{
+	max-width: 75px;	
+}
+#PersonnelSearch #PersonnelMain .Input
+{
+	position:relative;
+	width:80px;
+	height:50px;
+	
+	margin-left: 20px;
+	float: left;
+	
+}

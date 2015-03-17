@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+
+#rePTrainTitle{
+	 background-color: #343F44;
+	 width: 1180px;
+	 height: 25px;
+}
+
+#rePTrainTitle #titleText{
+	 color: #FFFFFF;
+	 font-size: 14px;
+	 background-color: #343F44;
+	 width: 500px;
+	 height: 20px;
+	 padding-top: 5px;
+	 padding-left: 20px;
+	 position: relative;
+	 float: left;
+
+}
+
+#div0{
+	margin-left: 30%;
+}
+
+#div1{
+	padding-top: 20px;
+}
+#div2{
+	
+}
+#div3{
+	
+}
+#div4{
+	
+}
+#div5{
+	
+}
+#div6{
+	margin-left: 10%;
+}

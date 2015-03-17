@@ -1,0 +1,53 @@
+<?xml version='1.0' encodi·ng='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+
+    <session-factory>
+
+        <!-- Database connection settings数据库连接的配置 -->
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://localhost/personnel</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">1234</property>
+
+        <!-- JDBC connection pool (use the built-in)连接池的配置，不是越多越好，适合最好 -->
+        <property name="connection.pool_size">1</property>
+
+        <!-- SQL dialect 数据库的方言，靠这句话来识别是什么数据库-->
+        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+
+
+        <property name="current_session_context_class">thread</property>
+        <!-- Echo all executed SQL to stdout开发的时候必须 打开，方便我们调试 -->
+        <property name="show_sql">true</property>
+
+        <!-- Drop and re-create the database schema on startup 在启动的时候创建数据库中的表，create是每次都重新建一个新的，update是有就用，没用才建立-->
+        <property name="hbm2ddl.auto">update</property>
+
+
+      <!--  <mapping resource="org/jsoft/comm/vo/User.hbm.xml"/> -->
+      <mapping resource="org/jsoft/comm/vo/Bak.hbm.xml"/>
+	<mapping resource="org/jsoft/comm/vo/Department.hbm.xml"/>
+	<mapping resource="org/jsoft/comm/vo/DeptJobRel.hbm.xml"/>
+	<mapping resource="org/jsoft/comm/vo/DictionLog.hbm.xml"/>
+	<mapping resource="org/jsoft/comm/vo/Duty.hbm.xml"/>
+	<mapping resource="org/jsoft/comm/vo/Encorchast.hbm.xml"/>
+	<mapping resource="org/jsoft/comm/vo/Job.hbm.xml"/>
+	<mapping resource="org/jsoft/comm/vo/Menu.hbm.xml"/>
+	<mapping resource="org/jsoft/comm/vo/OperateLog.hbm.xml"/>
+	<mapping resource="org/jsoft/comm/vo/Operater.hbm.xml"/>
+	<mapping resource="org/jsoft/comm/vo/Peoc.hbm.xml"/>
+	<mapping resource="org/jsoft/comm/vo/Personneladjustsalary.hbm.xml"/>
+	<mapping resource="org/jsoft/comm/vo/Personnelappraise.hbm.xml"/>
+	<mapping resource="org/jsoft/comm/vo/Personnelinfo.hbm.xml"/>
+	<mapping resource="org/jsoft/comm/vo/Personnelremove.hbm.xml"/>
+	<mapping resource="org/jsoft/comm/vo/Personneltrain.hbm.xml"/>
+	<mapping resource="org/jsoft/comm/vo/Salary.hbm.xml"/>
+	
+    </session-factory>
+
+</hibernate-configuration>
+

@@ -1,0 +1,85 @@
+@CHARSET "UTF-8";
+
+#peocUpdateContainer {
+	border: 10px;
+	border: red;
+}
+
+#peocUpdateContainer #peocUpdateTitle{
+	 background-color: #343F44;
+	 width: 1200px;
+	 height: 25px;
+
+}
+
+#peocUpdateContainer #peocUpdateTitle #titleText{
+	 color: #FFFFFF;
+	 font-size: 14px;
+	 background-color: #343F44;
+	 width: 1180px;
+	 height: 20px;
+	 padding-top: 5px;
+	 padding-left: 20px;
+
+}
+
+#peocUpdateContainer #peocUpdateMain {
+	width: 1198px;
+	 height: 1000px;
+	 border: solid;
+	 border-width: 1px;
+   	border-color: #A0C8CA;
+	margin-top: 5px;
+	font-size: 14px;
+}
+
+#peocUpdateContainer #peocUpdateMain table {
+	width:800px;
+ 	
+}
+
+#peocUpdateContainer #peocUpdateMain table tr  {
+	height: 30px;
+}
+
+
+#peocUpdateContainer #peocUpdateMain table tr .tdLeft .tdLeftText {
+	text-align: right;
+   	padding-right: 10px;
+}
+
+#peocUpdateContainer #peocUpdateMain table tr .tdRight  {
+	margin-left: 20px;
+	
+}
+
+#peocUpdateContainer #peocUpdateMain table tr .tdRight input{
+	color: #2B4D4B;
+	
+}
+
+#peocUpdateContainer #peocUpdateMain table tr .tdRight select{
+	color: #2B4D4B;
+	
+}
+
+#peocUpdateContainer #peocUpdateMain table .submitButton {
+    	width:75px;
+		height:23px;
+		text-align:center;
+		color: black;
+		border-top-left-radius:3px;
+		border-top-right-radius:3px;
+		border-bottom-left-radius:3px;
+		border-bottom-right-radius:3px;
+		background-color: #A0C8CA;
+		border: 0px;
+	
+}
+
+.alertInfo {
+	width: 100px;
+	color: red;
+	font-size: 12px;
+}
+

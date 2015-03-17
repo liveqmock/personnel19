@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+	
+<hibernate-mapping> 
+<class name="org.jsoft.comm.vo.User" table="users" >
+  		<id name="userId" column="userId"  type="java.lang.String"><!-- 主键生成器 -->
+            <generator class="guid"/>
+
+        </id>
+        <property name="userName" column="userName" />
+ 		<property name="password" column="password" />
+</class>
+</hibernate-mapping>

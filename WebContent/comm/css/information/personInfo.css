@@ -1,0 +1,69 @@
+#boundary_row {
+	width: 100%;
+	height: 3px;
+}
+
+#item {
+	color: #e1e2e3;
+	font-size: 12px;
+}
+
+.title_style {
+	color: #e1e2e3;
+	font-size: 12px;
+}
+
+.aset {
+	text-decoration: none;
+	color: #e1e2e3;
+}
+
+.toptable_style {
+	width: 100%;
+	cellspacing: 1px;
+	background-color: #353c44;
+}
+
+.centtable_style {
+	width: 100%;
+	cellspacing: 1px;
+	background-color: rgb(168, 199, 206);
+}
+
+.toptr {
+	background-color: rgb(211, 234, 239);
+	text-align: center;
+	font-size: 12px;
+}
+
+.centtr {
+	background-color: #FFFFFF;
+	text-align: center;
+	font-size: 12px;
+}
+
+#delete {
+	background-color: #353c44;
+	color: #e1e2e3;
+	border: hidden;
+}
+
+#pagejump {
+	width: 26px;
+	height: 15px;
+	border: hidden;
+	background-image: url("/personnel/comm/images/comm/main_62.gif");
+}
+
+.pageinput {
+	width: 20px;
+	height: 12px;
+	font-size: 12px;
+	float: left;
+	border: solid 1px #7aaebd;
+}
+#pagestyle {
+	width: 850px;
+	background-color: red;
+	float: left;
+}
